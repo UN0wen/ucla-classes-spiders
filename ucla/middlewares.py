@@ -6,7 +6,8 @@
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
-
+import random
+from agents import AGENTS
 
 class UclaSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
@@ -78,6 +79,8 @@ class UclaDownloaderMiddleware(object):
         # - or return a Request object
         # - or raise IgnoreRequest: process_exception() methods of
         #   installed downloader middleware will be called
+        agent = random.choice(AGENTS)
+        request.headers['User-Agent'] = agent
         return None
 
     def process_response(self, request, response, spider):

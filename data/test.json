@@ -1,0 +1,667 @@
+[
+    {
+        "department": "COM SCI",
+        "classes": [
+            {
+                "class_id": "COMSCI0031",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Smallberg, D.A.",
+                    "location": "La Kretz Hall 110",
+                    "time": "4pm-5:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0032",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Smallberg, D.A.",
+                    "location": "Moore Hall 100",
+                    "time": "12pm-1:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0033",
+                "class_data": {
+                    "units": "5.0",
+                    "instructor": "Reinman, G.D.",
+                    "location": "Moore Hall 100",
+                    "time": "10am-11:50am",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0035L",
+                "class_data": {
+                    "units": "3.0",
+                    "instructor": "TA",
+                    "location": "Boelter Hall 3760",
+                    "time": "10am-11:50am",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0051AM",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Yang, C.K.",
+                    "location": "Boelter Hall 3400",
+                    "time": "6pm-7:50pm",
+                    "day": "TR"
+                }
+            },
+            {
+                "class_id": "COMSCI0088SA",
+                "class_data": {
+                    "units": "1.0",
+                    "instructor": "Chen, Y.",
+                    "location": "Haines Hall 122",
+                    "time": "1pm-1:50pm",
+                    "day": "M"
+                }
+            },
+            {
+                "class_id": "COMSCI0088SB",
+                "class_data": {
+                    "units": "1.0",
+                    "instructor": "Hui, A.T.",
+                    "location": "Boelter Hall 5273",
+                    "time": "4pm-4:50pm",
+                    "day": "M"
+                }
+            },
+            {
+                "class_id": "COMSCI0097001",
+                "class_data": {
+                    "units": "1.0-4.0 Variable",
+                    "instructor": "Eggert, P.R.",
+                    "location": "Boelter Hall 5249",
+                    "time": "10am-11:50am",
+                    "day": "TR"
+                }
+            },
+            {
+                "class_id": "COMSCI0111",
+                "class_data": {
+                    "units": "5.0",
+                    "instructor": "Reiher, P.L.",
+                    "location": "Franz Hall 1260",
+                    "time": "8am-9:50am",
+                    "day": "TR"
+                }
+            },
+            {
+                "class_id": "COMSCI0118",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Lu, S.",
+                    "location": "Engineering VI Mong Learning Center",
+                    "time": "8am-9:50am",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0119M",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Chen, X.",
+                    "location": "Broad Art Center 2160E",
+                    "time": "4pm-5:50pm",
+                    "day": "TR"
+                }
+            },
+            {
+                "class_id": "COMSCI0122CM",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Eskin, E.",
+                    "location": "Boelter Hall 3400",
+                    "time": "2pm-3:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0130",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Burns, M.S.",
+                    "location": "Renee and David Kaplan Hall 169",
+                    "time": "4pm-5:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0131",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Eggert, P.R.",
+                    "location": "Boelter Hall 3400",
+                    "time": "12pm-1:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0134",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Netravali, R.A.",
+                    "location": "Royce Hall 190",
+                    "time": "10am-11:50am",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0143",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Rosario, R.R.",
+                    "location": "Young Hall CS24",
+                    "time": "4pm-5:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0144",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Cho, J.",
+                    "location": "Engineering VI Mong Learning Center",
+                    "time": "10am-11:50am",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0146M",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Dolecek, L.",
+                    "location": "Boelter Hall 3400",
+                    "time": "10am-11:50am",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0151BM",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Tamir, Y.",
+                    "location": "Boelter Hall 5249",
+                    "time": "10am-11:50am",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0152AM",
+                "class_data": {
+                    "units": "2.0",
+                    "instructor": "TA",
+                    "location": "Boelter Hall 3424",
+                    "time": "10am-11:50am",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0152B",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "TA",
+                    "location": "Boelter Hall 3436",
+                    "time": "12pm-1:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0161",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Darwiche, A.Y.",
+                    "location": "Boelter Hall 3400",
+                    "time": "10am-11:50am",
+                    "day": "TR"
+                }
+            },
+            {
+                "class_id": "COMSCI0168",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Scalzo, F.",
+                    "location": "Haines Hall A18",
+                    "time": "8am-9:50am",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0174A",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Law, A.",
+                    "location": "Boelter Hall 2444",
+                    "time": "4pm-5:50pm",
+                    "day": "TR"
+                }
+            },
+            {
+                "class_id": "COMSCI0180",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Hsieh, C.",
+                    "location": "Haines Hall 39",
+                    "time": "2pm-3:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0181",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Campbell, M.L.",
+                    "location": "La Kretz Hall 110",
+                    "time": "4pm-5:50pm",
+                    "day": "TR"
+                }
+            },
+            {
+                "class_id": "COMSCI0182M",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Distefano, J.",
+                    "location": "Boelter Hall 5280",
+                    "time": "2pm-3:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0183",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Ostrovsky, R.",
+                    "location": "Public Affairs Building 1222",
+                    "time": "2pm-3:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0187CM",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Pellegrini, M.",
+                    "location": "Geology Building 4660",
+                    "time": "2pm-3:50pm",
+                    "day": "TR"
+                }
+            },
+            {
+                "class_id": "COMSCI0188002",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Gafni, E.M.",
+                    "location": "Boelter Hall 2444",
+                    "time": "2pm-3:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0188003",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "The Staff",
+                    "location": "Boelter Hall 2444",
+                    "time": "10am-11:50am",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0188001",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "No instructors",
+                    "location": "",
+                    "time": "1pm-1:50pm",
+                    "day": "M"
+                }
+            },
+            {
+                "class_id": "COMSCI0188SB",
+                "class_data": {
+                    "units": "1.0",
+                    "instructor": "No instructors",
+                    "location": "",
+                    "time": "4pm-4:50pm",
+                    "day": "M"
+                }
+            },
+            {
+                "class_id": "COMSCI0188SC",
+                "class_data": {
+                    "units": "2.0",
+                    "instructor": "Rosario, R.R.",
+                    "location": "",
+                    "time": "N/A",
+                    "day": "N/A"
+                }
+            },
+            {
+                "class_id": "COMSCI0192",
+                "class_data": {
+                    "units": "2.0",
+                    "instructor": "Shaked, S.",
+                    "location": "",
+                    "time": "N/A",
+                    "day": "Varies"
+                }
+            },
+            {
+                "class_id": "COMSCI0192A",
+                "class_data": {
+                    "units": "1.0",
+                    "instructor": "Shaked, S.",
+                    "location": "",
+                    "time": "N/A",
+                    "day": "Varies"
+                }
+            },
+            {
+                "class_id": "COMSCI0201",
+                "class_data": {
+                    "units": "2.0",
+                    "instructor": "Hsieh, C.",
+                    "location": "Boelter Hall 3400",
+                    "time": "4pm-5:50pm",
+                    "day": "TR"
+                }
+            },
+            {
+                "class_id": "COMSCI0205",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Sarrafzadeh, M.",
+                    "location": "Boelter Hall 5436",
+                    "time": "10am-11:50am",
+                    "day": "TR"
+                }
+            },
+            {
+                "class_id": "COMSCI0216",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Varghese, G.",
+                    "location": "Boelter Hall 4413",
+                    "time": "12pm-1:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0217B",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Zhang, L.",
+                    "location": "Geology Building 6704",
+                    "time": "4pm-5:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0218",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Reiher, P.L.",
+                    "location": "Online",
+                    "time": "--",
+                    "day": "Varies"
+                }
+            },
+            {
+                "class_id": "COMSCI0222CM",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Eskin, E.",
+                    "location": "Boelter Hall 3400",
+                    "time": "2pm-3:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0229SM001",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Sankararaman, S.",
+                    "location": "Boelter Hall 5280",
+                    "time": "10am-11:50am",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0236",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Reiher, P.L.",
+                    "location": "Online",
+                    "time": "--",
+                    "day": "Varies"
+                }
+            },
+            {
+                "class_id": "COMSCI0239002",
+                "class_data": {
+                    "units": "2.0-12.0 Variable",
+                    "instructor": "Xu, H.",
+                    "location": "Bunche Hall 2121",
+                    "time": "12pm-1:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0239001",
+                "class_data": {
+                    "units": "2.0-12.0 Variable",
+                    "instructor": "Palsberg, J.",
+                    "location": "Boelter Hall 5249",
+                    "time": "2pm-3:50pm",
+                    "day": "TR"
+                }
+            },
+            {
+                "class_id": "COMSCI0245",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Wang, W.",
+                    "location": "Boelter Hall 4283",
+                    "time": "12pm-1:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0247",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Sun, Y.",
+                    "location": "Boelter Hall 8500",
+                    "time": "10am-11:50am",
+                    "day": "TR"
+                }
+            },
+            {
+                "class_id": "COMSCI0249080",
+                "class_data": {
+                    "units": "2.0-12.0 Variable",
+                    "instructor": "Wang, W.",
+                    "location": "Online",
+                    "time": "--",
+                    "day": "Varies"
+                }
+            },
+            {
+                "class_id": "COMSCI0259001",
+                "class_data": {
+                    "units": "2.0-12.0 Variable",
+                    "instructor": "Nowatzki, A.J.",
+                    "location": "Boelter Hall 5422",
+                    "time": "2pm-3:50pm",
+                    "day": "TR"
+                }
+            },
+            {
+                "class_id": "COMSCI0259002",
+                "class_data": {
+                    "units": "2.0-12.0 Variable",
+                    "instructor": "Potkonjak, M.",
+                    "location": "Engineering VI 134A",
+                    "time": "2pm-3:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0260",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Gu, Q.",
+                    "location": "Boelter Hall 8500",
+                    "time": "2pm-3:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0263",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Chang, K.",
+                    "location": "Boelter Hall 8500",
+                    "time": "12pm-1:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0266BM",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Zhu, S.",
+                    "location": "Young Hall 2200",
+                    "time": "3:30pm-4:45pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0267A",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "van Den Broeck, G.",
+                    "location": "Bunche Hall 2209A",
+                    "time": "4pm-5:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0275",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Terzopoulos, D.",
+                    "location": "Franz Hall 2258A",
+                    "time": "4pm-5:50pm",
+                    "day": "MW"
+                }
+            },
+            {
+                "class_id": "COMSCI0287CM",
+                "class_data": {
+                    "units": "4.0",
+                    "instructor": "Pellegrini, M.",
+                    "location": "Geology Building 4660",
+                    "time": "2pm-3:50pm",
+                    "day": "TR"
+                }
+            },
+            {
+                "class_id": "COMSCI0289A001",
+                "class_data": {
+                    "units": "2.0-12.0 Variable",
+                    "instructor": "Kordi, M.",
+                    "location": "Kinsey Science Teaching Pavilion 1200B",
+                    "time": "4pm-5:50pm",
+                    "day": "TR"
+                }
+            },
+            {
+                "class_id": "COMSCI0298",
+                "class_data": {
+                    "units": "2.0-4.0 Variable",
+                    "instructor": "Avizienis, A.",
+                    "location": "",
+                    "time": "N/A",
+                    "day": "N/A"
+                }
+            },
+            {
+                "class_id": "COMSCI0375",
+                "class_data": {
+                    "units": "1.0-4.0 Variable",
+                    "instructor": "The Staff",
+                    "location": "",
+                    "time": "N/A",
+                    "day": "N/A"
+                }
+            },
+            {
+                "class_id": "COMSCI0596",
+                "class_data": {
+                    "units": "1.0-8.0 Variable",
+                    "instructor": "Avizienis, A.",
+                    "location": "",
+                    "time": "N/A",
+                    "day": "N/A"
+                }
+            },
+            {
+                "class_id": "COMSCI0597A",
+                "class_data": {
+                    "units": "2.0-12.0 Variable",
+                    "instructor": "Avizienis, A.",
+                    "location": "",
+                    "time": "N/A",
+                    "day": "N/A"
+                }
+            },
+            {
+                "class_id": "COMSCI0597B",
+                "class_data": {
+                    "units": "2.0-16.0 Variable",
+                    "instructor": "Avizienis, A.",
+                    "location": "",
+                    "time": "N/A",
+                    "day": "N/A"
+                }
+            },
+            {
+                "class_id": "COMSCI0597C",
+                "class_data": {
+                    "units": "2.0-16.0 Variable",
+                    "instructor": "Avizienis, A.",
+                    "location": "",
+                    "time": "N/A",
+                    "day": "N/A"
+                }
+            },
+            {
+                "class_id": "COMSCI0598",
+                "class_data": {
+                    "units": "2.0-12.0 Variable",
+                    "instructor": "Avizienis, A.",
+                    "location": "",
+                    "time": "N/A",
+                    "day": "N/A"
+                }
+            },
+            {
+                "class_id": "COMSCI0599",
+                "class_data": {
+                    "units": "2.0-16.0 Variable",
+                    "instructor": "Avizienis, A.",
+                    "location": "",
+                    "time": "N/A",
+                    "day": "N/A"
+                }
+            }
+        ]
+    }
+]
