@@ -10,7 +10,7 @@ headers = {
 
 filter_flags = {
     "enrollment_status": "O,W,C,X,T,S",
-    "advaced": "y",
+    "advanced": "y",
     "meet_days": "M,T,W,R,F",
     "start_time": "8:00 am",
     "end_time": "8:00 pm",
@@ -25,21 +25,25 @@ filter_flags = {
     "summer_session": None
 }
 
+DEPARTMENT_CLASS_LOCATION = "./data/F19/deptclasses_F19.json"
 
 class ClassDetailsSpider(scrapy.Spider):
     name = "class-details"
     pattern = re.compile(r'\{.*?\}')
 
     def start_requests(self):
-        with open("./data/deptclasses.json", "r") as f:
+        with open(DEPARTMENT_CLASS_LOCATION, "r") as f:
             self.data = json.load(f)
             for dept in self.data:
                 dept_code = dept['department']
-                #if dept_code != 'COM SCI':
-                #    continue
+                # if dept_code != 'COM SCI':
+                #     continue
                 dept_iter = iter(dept['classes'])
                 class_data = []
-                next_class = next(dept_iter)    
+                try:
+                    next_class = next(dept_iter)
+                except StopIteration:
+                    continue     
                 model= next_class['class_meta']
                 url = self.gen_url(model)
                 class_id = next_class['class_id']
@@ -47,7 +51,7 @@ class ClassDetailsSpider(scrapy.Spider):
 
     def parse(self, response, dept, class_data, dept_iter, class_id):
         # parse
-        unit = response.xpath(
+        unit = response.css('.primary-row').xpath(
             '//div[@class="unitsColumn"]/p/text()').getall()
         
         try:
@@ -55,7 +59,7 @@ class ClassDetailsSpider(scrapy.Spider):
         except IndexError:
             unit = "N/A"
          
-        instructor = response.xpath(
+        instructor = response.css('.primary-row').xpath(
             '//div[@class="instructorColumn hide-small"]/p/text()').getall()
 
         try:
@@ -63,23 +67,26 @@ class ClassDetailsSpider(scrapy.Spider):
         except IndexError:
             instructor = "N/A"
         
-        location = response.xpath(
+        location = response.css('.primary-row').xpath(
             '//div[@class="locationColumn hide-small"]/p/text()').getall()
         
         try:
-            location = location[1].strip()
+            location = location[0].strip()
         except IndexError:
             location = "N/A"
 
         time = response.xpath(
-            '//div[@class="timeColumn"]/p/text()').getall()
+            '//div[contains(@class, primary-row)]/div[@class="timeColumn"]/p/text()').getall()
         
         try:
-            time = time[1] + time[2]
+            if time[0] == "Not scheduled":
+                time = time[0]
+            else:
+                time = time[1] + time[2]
         except IndexError:
             time = "N/A"
         
-        day = response.xpath('//div[@class="dayColumn hide-small beforeCollapseHide"]/div/p/a/text()').getall()
+        day = response.css('.primary-row').xpath('//div[@class="dayColumn hide-small beforeCollapseHide"]/div/p/a/text()').getall()
         
         try:
             day = day[0]
