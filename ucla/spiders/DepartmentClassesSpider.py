@@ -73,7 +73,7 @@ class DepartmentClassesSpider(scrapy.Spider):
         model = {
             "subj_area_cd": dept,
             "search_by": "Subject",
-            "term_cd": "19F",
+            "term_cd": "19W",
             # "SubjectAreaName": "Computer Science (COM SCI)",
             # "CrsCatlgName": "Enter a Catalog Number or Class Title (Optional)",
             "ActiveEnrollmentFlag": "n",

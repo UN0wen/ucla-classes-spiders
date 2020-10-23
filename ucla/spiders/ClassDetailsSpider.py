@@ -25,7 +25,7 @@ filter_flags = {
     "summer_session": None
 }
 
-DEPARTMENT_CLASS_LOCATION = "./data/F19/deptclasses_F19.json"
+DEPARTMENT_CLASS_LOCATION = "./data/S20/deptclasses_S20.json"
 
 class ClassDetailsSpider(scrapy.Spider):
     name = "class-details"
